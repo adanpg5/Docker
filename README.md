@@ -1,11 +1,11 @@
 # Trabajando con Docker
 
-
   - [¿Qué es Docker?](#qué-es-docker)
   - [¿Por qué Docker?](#por-qué-docker)
-    - [Instalación de Docker Engine (Ubuntu).](#instalación-de-docker-engine-ubuntu)
+  - [Instalación de Docker Engine (Ubuntu).](#instalación-de-docker-engine-ubuntu)
   - [Docker Compose](#docker-compose)
     - [Instalación.](#instalación)
+  - [Docker Desktop (Windows).](#docker-desktop-windows)
   
 ## ¿Qué es Docker?
 * Docker es una plataforma de software que le permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema, código y tiempo de ejecución. Con Docker, puede implementar y ajustar la escala de aplicaciones rápidamente en cualquier entorno con la certeza de saber que su código se ejecutará.
