@@ -81,3 +81,35 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 * Con el comando `sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose` creamos un enlace simbólico a la ruta para acortarla y que se haga más cómodo a la hora de trabajar.
 
 * `docker-compose --version` para comprobar la versión instalada.
+
+## Docker Desktop (Windows).
+
+* Para poder instalar Docker en sistemas Windows, tenemos que tener activada en nuestra BIOS la opción "BIOS-level hardware virtualization support". Esta opción no suele venir activada por defecto.
+
+  Para comprobar si está activada, abriremos el Task Manager y lo haremos de la siguiente manera:
+
+![7](./img/7.png)
+
+  En caso de que en el apartado "Máquina virtual" nos aparezca **NO**, deberemos activar la opción mencionada anteriormente.
+
+  Una vez realizado, debemos entrar en "**Panel de control -> Programas -> Activar o desactivar características de Windows**"
+
+![8](./img/8.png)
+
+  Buscaremos las opciones "**Subsistema de Windows para Linux**" y "**Plataforma de máquina virtual**" y marcaremos ambas. 
+
+* Teniendo todo listo, para descargarlo accederemos a https://docs.docker.com/desktop/windows/install
+
+![9](./img/9.png)
+
+  Antes de instalarlo, accedemos a https://docs.microsoft.com/es-es/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package y descargamos una actualización para utilizar el kernel de linux.
+
+  Abrimos este último paquete y lo instalamos. Ahora, sí instalaremos el docker desktop descargado anteriormente. Dejaremos la configuración del setup por defecto.
+
+  ![10](./img/10.png)
+
+  Una vez finalizada la instalación, nos pedirá cerrar sesión y volver a entrar. Una vez hecho, esperamos en la pantalla de inicio ya que Docker se abrirá automáticamente pasados unos segundos.
+
+   ![11](./img/11.png)
+
+Cuando la instalación haya finalizado, nos aparecerá un tutorial para poner en práctica Docker Desktop. En mi caso, omito dicho tutorial ya que trabajaremos sobre el sistema Linux.
